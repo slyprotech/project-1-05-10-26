@@ -1,10 +1,6 @@
-name = "sulaimon"
-age = 30
-city = "ilorin"
-height = 5.6
-is_student = False
-
-print(type(name))
-print(type(age))
-print(type(height))
-print(type(is_student))
+name = input("What is your name?")
+print(name)
+name = input("Name:")
+age = int(input("Age:"))
+print(name)           
+print(age + 1)
