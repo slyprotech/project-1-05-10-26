@@ -1,6 +1,11 @@
-name = input("What is your name?")
-print(name)
-name = input("Name:")
-age = int(input("Age:"))
-print(name)           
-print(age + 1)
+# CALCULATOR
+firstnumber = int(input("FirstNumber"))
+secondnumber = int(input("SecondNumber"))
+add = firstnumber + secondnumber
+multiply = firstnumber * secondnumber
+substract = firstnumber - secondnumber
+divide = firstnumber / secondnumber
+print(add)
+print(multiply)
+print(substract)
+print(divide)
